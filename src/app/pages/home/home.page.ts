@@ -29,6 +29,7 @@ export class HomePage {
     }
 
     loadCachedData(){
+        this.cachedCityList=[];
         this.getCachedcities();
         console.log(this.cachedCityList)
         
